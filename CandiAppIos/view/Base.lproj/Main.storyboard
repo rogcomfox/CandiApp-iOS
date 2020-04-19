@@ -61,8 +61,8 @@
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Yusuf Gladiensyah Bihanda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDd-W3-gkt">
-                                <rect key="frame" x="79" y="324" width="257.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yusuf Gladiensyah Bihanda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDd-W3-gkt">
+                                <rect key="frame" x="78.5" y="325" width="257.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Qxa-bL-2u5"/>
                                 </constraints>
@@ -74,13 +74,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="TDd-W3-gkt" firstAttribute="top" secondItem="rI5-lA-B4L" secondAttribute="bottom" constant="50" id="0F9-xh-XNX"/>
+                            <constraint firstItem="Lm3-wB-anK" firstAttribute="leading" secondItem="MsO-qh-2Nw" secondAttribute="leading" constant="90" id="7MI-TY-FMw"/>
                             <constraint firstItem="rI5-lA-B4L" firstAttribute="top" secondItem="xty-xG-fXS" secondAttribute="topMargin" constant="60" id="A6R-YG-71e"/>
-                            <constraint firstItem="TDd-W3-gkt" firstAttribute="centerX" secondItem="Lm3-wB-anK" secondAttribute="centerX" id="IpI-fd-TmE"/>
+                            <constraint firstItem="Lm3-wB-anK" firstAttribute="centerX" secondItem="TDd-W3-gkt" secondAttribute="centerX" id="IDA-R7-vlO"/>
                             <constraint firstItem="TDd-W3-gkt" firstAttribute="top" secondItem="xty-xG-fXS" secondAttribute="top" constant="325" id="Mje-Qu-jEJ"/>
-                            <constraint firstItem="TDd-W3-gkt" firstAttribute="leading" secondItem="MsO-qh-2Nw" secondAttribute="leading" constant="32" id="UXU-D3-KEK"/>
                             <constraint firstItem="rI5-lA-B4L" firstAttribute="leading" secondItem="xty-xG-fXS" secondAttribute="leadingMargin" constant="67" id="WqI-Ow-nAP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rI5-lA-B4L" secondAttribute="trailing" constant="67" id="Wuk-ap-PhX"/>
-                            <constraint firstItem="MsO-qh-2Nw" firstAttribute="trailing" secondItem="TDd-W3-gkt" secondAttribute="trailing" constant="32" id="Y1n-On-g91"/>
                             <constraint firstItem="Lm3-wB-anK" firstAttribute="top" secondItem="TDd-W3-gkt" secondAttribute="bottom" constant="30" id="Y2w-2w-7gp"/>
                             <constraint firstItem="rI5-lA-B4L" firstAttribute="centerX" secondItem="xty-xG-fXS" secondAttribute="centerX" id="anP-hq-7hN"/>
                         </constraints>

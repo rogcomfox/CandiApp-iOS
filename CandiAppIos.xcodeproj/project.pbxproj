@@ -68,21 +68,53 @@
 		DB5C2EAE244C539F00515348 /* CandiAppIos */ = {
 			isa = PBXGroup;
 			children = (
-				DB5C2EAF244C539F00515348 /* AppDelegate.swift */,
-				DB5C2EB1244C539F00515348 /* SceneDelegate.swift */,
-				DB5C2EB3244C539F00515348 /* ViewController.swift */,
-				DB5C2EB5244C539F00515348 /* Main.storyboard */,
+				DB5C2ED2244C80AA00515348 /* controller */,
+				DB5C2ED1244C80A100515348 /* model */,
+				DB5C2ED0244C809600515348 /* view */,
+				DB5C2ECF244C808E00515348 /* base */,
 				DB5C2EB8244C53A200515348 /* Assets.xcassets */,
-				DB5C2EBA244C53A200515348 /* LaunchScreen.storyboard */,
 				DB5C2EBD244C53A200515348 /* Info.plist */,
-				DB5C2EC3244C55CF00515348 /* CandiTableViewCell.swift */,
-				DB5C2EC4244C55CF00515348 /* CandiTableViewCell.xib */,
-				DB5C2EC7244C5B9E00515348 /* Candi.swift */,
-				DB5C2EC9244C5BC500515348 /* DummyCandies.swift */,
-				DB5C2ECB244C649400515348 /* DetailCandiViewController.swift */,
-				DB5C2ECC244C649400515348 /* DetailCandiViewController.xib */,
 			);
 			path = CandiAppIos;
+			sourceTree = "<group>";
+		};
+		DB5C2ECF244C808E00515348 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C2EAF244C539F00515348 /* AppDelegate.swift */,
+				DB5C2EB1244C539F00515348 /* SceneDelegate.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		DB5C2ED0244C809600515348 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C2EC4244C55CF00515348 /* CandiTableViewCell.xib */,
+				DB5C2ECC244C649400515348 /* DetailCandiViewController.xib */,
+				DB5C2EBA244C53A200515348 /* LaunchScreen.storyboard */,
+				DB5C2EB5244C539F00515348 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DB5C2ED1244C80A100515348 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C2EC7244C5B9E00515348 /* Candi.swift */,
+				DB5C2EC9244C5BC500515348 /* DummyCandies.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DB5C2ED2244C80AA00515348 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C2EC3244C55CF00515348 /* CandiTableViewCell.swift */,
+				DB5C2ECB244C649400515348 /* DetailCandiViewController.swift */,
+				DB5C2EB3244C539F00515348 /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

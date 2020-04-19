@@ -2,7 +2,6 @@
 //  Candi.swift
 //  CandiAppIos
 //
-//  Created by Joe G on 19/04/20.
 //  Copyright © 2020 Nusantarian. All rights reserved.
 //
 
