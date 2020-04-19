@@ -13,6 +13,12 @@
 		DB5C2EB7244C539F00515348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5C2EB5244C539F00515348 /* Main.storyboard */; };
 		DB5C2EB9244C53A200515348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5C2EB8244C53A200515348 /* Assets.xcassets */; };
 		DB5C2EBC244C53A200515348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5C2EBA244C53A200515348 /* LaunchScreen.storyboard */; };
+		DB5C2EC5244C55CF00515348 /* CandiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C2EC3244C55CF00515348 /* CandiTableViewCell.swift */; };
+		DB5C2EC6244C55CF00515348 /* CandiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5C2EC4244C55CF00515348 /* CandiTableViewCell.xib */; };
+		DB5C2EC8244C5B9E00515348 /* Candi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C2EC7244C5B9E00515348 /* Candi.swift */; };
+		DB5C2ECA244C5BC500515348 /* DummyCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C2EC9244C5BC500515348 /* DummyCandies.swift */; };
+		DB5C2ECD244C649400515348 /* DetailCandiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C2ECB244C649400515348 /* DetailCandiViewController.swift */; };
+		DB5C2ECE244C649400515348 /* DetailCandiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5C2ECC244C649400515348 /* DetailCandiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		DB5C2EB8244C53A200515348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5C2EBB244C53A200515348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5C2EBD244C53A200515348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5C2EC3244C55CF00515348 /* CandiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandiTableViewCell.swift; sourceTree = "<group>"; };
+		DB5C2EC4244C55CF00515348 /* CandiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CandiTableViewCell.xib; sourceTree = "<group>"; };
+		DB5C2EC7244C5B9E00515348 /* Candi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candi.swift; sourceTree = "<group>"; };
+		DB5C2EC9244C5BC500515348 /* DummyCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCandies.swift; sourceTree = "<group>"; };
+		DB5C2ECB244C649400515348 /* DetailCandiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCandiViewController.swift; sourceTree = "<group>"; };
+		DB5C2ECC244C649400515348 /* DetailCandiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCandiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				DB5C2EB8244C53A200515348 /* Assets.xcassets */,
 				DB5C2EBA244C53A200515348 /* LaunchScreen.storyboard */,
 				DB5C2EBD244C53A200515348 /* Info.plist */,
+				DB5C2EC3244C55CF00515348 /* CandiTableViewCell.swift */,
+				DB5C2EC4244C55CF00515348 /* CandiTableViewCell.xib */,
+				DB5C2EC7244C5B9E00515348 /* Candi.swift */,
+				DB5C2EC9244C5BC500515348 /* DummyCandies.swift */,
+				DB5C2ECB244C649400515348 /* DetailCandiViewController.swift */,
+				DB5C2ECC244C649400515348 /* DetailCandiViewController.xib */,
 			);
 			path = CandiAppIos;
 			sourceTree = "<group>";
@@ -126,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5C2EBC244C53A200515348 /* LaunchScreen.storyboard in Resources */,
+				DB5C2EC6244C55CF00515348 /* CandiTableViewCell.xib in Resources */,
 				DB5C2EB9244C53A200515348 /* Assets.xcassets in Resources */,
+				DB5C2ECE244C649400515348 /* DetailCandiViewController.xib in Resources */,
 				DB5C2EB7244C539F00515348 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5C2EB4244C539F00515348 /* ViewController.swift in Sources */,
+				DB5C2EC8244C5B9E00515348 /* Candi.swift in Sources */,
+				DB5C2ECA244C5BC500515348 /* DummyCandies.swift in Sources */,
+				DB5C2EC5244C55CF00515348 /* CandiTableViewCell.swift in Sources */,
+				DB5C2ECD244C649400515348 /* DetailCandiViewController.swift in Sources */,
 				DB5C2EB0244C539F00515348 /* AppDelegate.swift in Sources */,
 				DB5C2EB2244C539F00515348 /* SceneDelegate.swift in Sources */,
 			);
