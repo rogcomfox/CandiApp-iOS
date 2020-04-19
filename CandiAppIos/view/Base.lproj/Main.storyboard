@@ -74,14 +74,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="TDd-W3-gkt" firstAttribute="top" secondItem="rI5-lA-B4L" secondAttribute="bottom" constant="50" id="0F9-xh-XNX"/>
-                            <constraint firstItem="Lm3-wB-anK" firstAttribute="leading" secondItem="MsO-qh-2Nw" secondAttribute="leading" constant="90" id="7MI-TY-FMw"/>
                             <constraint firstItem="rI5-lA-B4L" firstAttribute="top" secondItem="xty-xG-fXS" secondAttribute="topMargin" constant="60" id="A6R-YG-71e"/>
-                            <constraint firstItem="Lm3-wB-anK" firstAttribute="centerX" secondItem="TDd-W3-gkt" secondAttribute="centerX" id="IDA-R7-vlO"/>
                             <constraint firstItem="TDd-W3-gkt" firstAttribute="top" secondItem="xty-xG-fXS" secondAttribute="top" constant="325" id="Mje-Qu-jEJ"/>
+                            <constraint firstItem="TDd-W3-gkt" firstAttribute="centerX" secondItem="xty-xG-fXS" secondAttribute="centerX" id="Sky-WY-Fy6"/>
                             <constraint firstItem="rI5-lA-B4L" firstAttribute="leading" secondItem="xty-xG-fXS" secondAttribute="leadingMargin" constant="67" id="WqI-Ow-nAP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rI5-lA-B4L" secondAttribute="trailing" constant="67" id="Wuk-ap-PhX"/>
                             <constraint firstItem="Lm3-wB-anK" firstAttribute="top" secondItem="TDd-W3-gkt" secondAttribute="bottom" constant="30" id="Y2w-2w-7gp"/>
                             <constraint firstItem="rI5-lA-B4L" firstAttribute="centerX" secondItem="xty-xG-fXS" secondAttribute="centerX" id="anP-hq-7hN"/>
+                            <constraint firstItem="Lm3-wB-anK" firstAttribute="centerX" secondItem="xty-xG-fXS" secondAttribute="centerX" id="jpT-3b-n1T"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MsO-qh-2Nw"/>
                     </view>
