@@ -28,16 +28,16 @@ extension ViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CandiCell", for: indexPath) as! CandiTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CandiCell", for: indexPath) as? CandiTableViewCell
         
         let candi = candies[indexPath.row]
-        cell.titleCandi.text = candi.title
-        cell.descCandi.text = candi.desc
-        cell.photoCandi.image = candi.photo
+        cell?.titleCandi.text = candi.title
+        cell?.descCandi.text = candi.desc
+        cell?.photoCandi.image = candi.photo
         
-        cell.photoCandi.layer.cornerRadius = cell.photoCandi.frame.height/2
-        cell.photoCandi.clipsToBounds = true
-        return cell
+        cell?.photoCandi.layer.cornerRadius = (cell?.photoCandi.frame.height)!/2
+        cell?.photoCandi.clipsToBounds = true
+        return cell!
     }
     
     
